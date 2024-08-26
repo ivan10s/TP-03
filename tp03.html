@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 03</title>
+</head>
+
+<body>
+    <h1>TP 03 - LISTAS</h1>
+    <h2>Ivan Ulloa WEB I 4º1</h2>
+    <h3>1.1- ¿Para qué sirve la etiqueta ul? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>ul de "unordered list" lista no ordenada . crea una lista no ordenada. Ejemplo: </p>
+    <p>Países del mundo</p>
+    <ul>
+        <li>Argentina</li>
+        <li>Perú</li>
+        <li>Chile</li>
+    </ul>
+    <h3>1.2- ¿Para qué sirve la etiqueta ol? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>Es todo lo contrario al ul, esta etiqueta en vez de crear una lista desordenada, a su inversa, crea una lista
+        ordenada. Ej:</p>
+    <ol>
+        <li>River EL MAS GRANDE</li>
+        <li>Boca</li>
+        <li>Independiente</li>
+        <li>Racing</li>
+    </ol>
+    <h3>1.3- ¿Para qué sirve la etiqueta dl? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>La etiqueta DL representa una lista descriptiva. El elemento encierra una lista de grupos de términos
+        (especificados con el uso del elemento y de descripciones) </p>
+
+    <p>EQUIPOS DE LA LIGA</p>
+    <dl>
+        <dt>River Plate</dt>
+        <dd>El club Atletico River Plate identificado por sus colores blanco, rojo y en menor escala negro, River Plate
+            es
+            uno de los clubes más
+            exitosos del mundo con un total de 72 títulos en su palmarés. Es el club más ganador de la Primera División
+            de Argentina, con 38 campeonatos conseguidos.</dd>
+  
+        <dt>Independiente</dt>
+        <dd>El Club Atlético Independiente, o simplemente Independiente, es una entidad deportiva y educativa argentina,
+            cuya sede y estadio están localizados en la ciudad de Avellaneda, del aglomerado del Gran Buenos Aires. El
+            club
+            es reconocido principalmente por su fútbol profesional, que milita en la Primera División de Argentina y es
+            considerado como uno de los cinco grandes del fútbol argentino.</dd>
+
+    </dl>
+    <h3>1.4- ¿Para qué sirve la etiqueta li? Dar un ejemplo en donde lo utilizarías.</h3>
+    <p>El elemento li del ingles "item list" o elemento de lista declara cada uno de los elementos de una lista.</p>
+    
+    <ul>
+        <li>hola</li>
+        <li>como estas</li>
+        <li>todo bien</li>
+    </ul>
+
+    <h3>1.5- Crea una lista desordenada con tres elementos (li) que contengan nombres de países de América del Sur.</h3>
+    <ul>
+        <li>Argentina</li>
+        <li>Brasil</li>
+        <li>Uruguay</li>
+    </ul>
+
+    <h3>1.6- Crea una lista ordenada con cinco elementos (li) que contengan los días de la semana en orden alfabético.
+    </h3>
+    <ol type="A">
+        <li>Lunes</li>
+        <li>Martes</li>
+        <li>Miercoles</li>
+        <li>Jueves</li>
+        <li>Viernes</li>
+    </ol>
+
+    <h3>1.7- Anida una lista desordenada dentro de otro elemento li de otra lista desordenada para crear una lista
+        anidada de frutas y verduras.</h3>
+
+    <li>Frutas
+        <ul>
+            <li>Pera</li>
+            <li>Kiwi</li>
+            <li>Naranja</li>
+        </ul>
+    </li>
+    <li>Verduras</li>
+    <ul>
+        <li>Cebolla</li>
+        <li>Brocoli</li>
+        <li>Palta</li>
+    </ul>
+    <!--1.8- Crea una lista ordenada, respetando las negritas y el subrayado, que contenga los siguientes pasos para hacer una tarta de manzana: a) Pelar y cortar las manzanas en rodajas finas. b) Mezclar la canela, el azúcar y la harina en un tazón. c) Colocar la masa de la tarta en un molde para horno. d) Colocar las manzanas sobre la masa de la tarta. e) Hornear la tarta durante 45 minutos.-->
+    <h3>1.8- Crea una lista ordenada, respetando las negritas y el subrayado, que contenga los siguientes pasos para
+        hacer una tarta de manzana: a: Pelar y cortar las manzanas en rodajas finas. b: Mezclar la canela, el azúcar y
+        la harina en un tazón. c: Colocar la masa de la tarta en un molde para horno. d: Colocar las manzanas sobre la
+        masa de la tarta. e: Hornear la tarta durante 45 minutos.</h3>
+    <p>TORTA DE MANZANA</p>
+    <ol type="A">
+        <li><u>Pelar</u> y <u>Cortar</u> las <strong>manzanas</strong> en rodajas finas.</li>
+        <li><u>Mezclar</u> la <strong>canela,</strong> el <strong>azucar</strong> y la <strong>harina</strong> en un
+            tazon.</li>
+        <li><u>Colocar</u> la <strong>masa</strong> de la <strong>tarta</strong> en un molde para horno.</li>
+        <li><u>Colocar</u> las <strong>manzanas</strong> sobre la masa de la tarta.</li>
+        <li><u>Hornear</u> la <strong>tarta</strong> durante 45 minutos.</li>
+    </ol>
+
+    <h3>1.9 Existe un atributo que se aplica a la etiqueta ol para ver la lista en orden descendente en vez de
+        ascendente,
+        ¿cuál es ese atributo? Utilizar la referencia de atributos de HTML</h3>
+    <p>El atributo que utilizamos es el "reversed"</p>
+
+    <h3>1.10 Utilizando el atributo anterior, crear una lista con cuatro elementos que contengan nombres de películas de
+        terror de forma descendente.</h3>
+    <ol type="4" reversed>
+        <li>El conjuro</li>
+        <li>La llorona</li>
+        <li>La monja</li>
+        <li>Chucky</li>
+    </ol>
+
+    <h3>1.11 Elegir un gusto particular y realizar una lista descriptiva de por lo menos 5 elementos. El título debe
+        tener un enlace que lleve a un sitio de referencia. Utilizar en las descripciones etiquetas: strong, em, img.
+    </h3>
+
+    <p>DEPORTES</p>
+
+    <dl>
+
+        <dt><a href="https://es.wikipedia.org/wiki/Historia_del_f%C3%BAtbol">FUTBOL</a></dt>
+        <dd><strong>Juego</strong> entre <u>dos</u> equipos de <em>once jugadores</em> cada uno, cuyo objetivo es hacer
+            entrar en la portería contraria un
+            <strong>balon</strong> que <u>no puede</u>ser tocado con las manos ni con los brazos, salvo por el portero
+            en
+            <u>su area</u> de meta.
+            <img src="argentina-campeon.png" width="500 px">
+        </dd>
+        <dt><a href="https://es.wikipedia.org/wiki/Voleibol">VOLEY</a></dt>
+        <dd>El <strong>Voleibol</strong>, <u>balonvolea</u> o simplemente <u>voley</u>, es un deporte donde dos equipos
+            se enfrentan sobre un terreno
+            de juego liso separados por una <em>red central</em>, tratando de pasar el balón por encima de la red hacia
+            el suelo
+            del campo contrario.
+            <img src="Europei_di_pallavolo_2005_-_Italia-Russia.png" width="500 px">
+        </dd>
+
+        <dt><a href="https://es.wikipedia.org/wiki/Rugby">Rugby</a></dt>
+        <dd>El <strong>Rugby</strong> es un <strong>deporte</strong>
+            donde <u>participan</u> dos equipos, actuando conforme a las <em>reglas establecidas</em> y con espíritu
+            deportivo, que llevando o pasando un balón ovalado, tratan de hacer el mayor número de puntos posibles,
+            evitando que puntúe el equipo contrario
+        
+            <img src="rugby.png" width="500 px">
+        </dd>
+    </dl>
+
+</body>
+
+</html>
